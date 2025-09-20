@@ -1,0 +1,225 @@
+[
+  {
+    "ContainingType": "StageConnect.Controllers.AuthController",
+    "Method": "LoginCompany",
+    "RelativePath": "api/Auth/login/company",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StageConnect.DTOs.LoginCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.AuthController",
+    "Method": "LoginStudent",
+    "RelativePath": "api/Auth/login/student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StageConnect.DTOs.LoginStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.AuthController",
+    "Method": "SignupEntreprise",
+    "RelativePath": "api/Auth/signup/entreprise",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StageConnect.DTOs.SignupEntrepriseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.AuthController",
+    "Method": "SignupStudent",
+    "RelativePath": "api/Auth/signup/student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StageConnect.DTOs.SignupStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.InternshipOffersController",
+    "Method": "GetOffer",
+    "RelativePath": "api/InternshipOffers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.InternshipOffersController",
+    "Method": "GetAllOffers",
+    "RelativePath": "api/InternshipOffers/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.InternshipOffersController",
+    "Method": "CreateOffer",
+    "RelativePath": "api/InternshipOffers/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StageConnect.DTOs.InternshipOfferDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.ProfilController",
+    "Method": "CreateProfil",
+    "RelativePath": "api/Profil/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Prenom",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nom",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Telephone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ville",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Age",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Biographie",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NiveauEtudes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Domain",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ecole",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnneObtion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Competances",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CvFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.ProfilController",
+    "Method": "GetLastProfil",
+    "RelativePath": "api/Profil/last",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.ProfilController",
+    "Method": "DownloadLastCv",
+    "RelativePath": "api/Profil/last/cv",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StageConnect.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StageConnect.WeatherForecast, StageConnect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
